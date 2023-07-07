@@ -1,0 +1,11 @@
+Teste de programação WindowsForms
+Tempo máximo para o teste 4h.
+Objetivo: Avaliar um desenvolvedor sênior em aplicações Windows Forms.
+
+Desenvolver uma aplicação WindowsForms que irá monitorar um diretório onde um arquivo CSV(imagem01) será copiado, quando o arquivo for copiado será enviado para 2 threads, a primeira vai tratar a coluna A e segunda vai tratar a coluna B, as threads devem ser iniciadas juntos na sequencia uma da outra, as duas threads devem escrever os dados em um mesmo listView, esse listView deve estar em modo details, ocupar a interface gráfica inteira do aplicativo e deve mostrar os dados um a baixo do outro conforme a imagem02. Deve ser feito um tratamento nas threads para que os dados não fiquem intercalados, não deve ser usado ordenação em nenhum ponto, resultado deve ficar como na imagem03. Com duplo click no controle deve ser enviar os dados do ListView para uma API Rest que irá receber os dados, aplicar uma regra de negócio que adiciona 10% em cada valor e salvar todos os valores em um outro arquivo CSV conforma imagem05. Se o retorno da API for sucesso a aplicação deve mostrar uma mensagem de arquivo enviado (Imagem04) se não mostrar o erro.
+
+Observações:
+Deve ser usado no teste as melhores boas práticas, classes, frameworks e técnicas, deve ser usado DDD, SOLID, C#10, dotnet6 e visualstudio2022.
+A api deve ser testável, ou seja, deve ser construída esperando a utilização de testes unitários, não há necessidade de implementar o teste nesse momento.
+O código deve estar pronto para ser executado com dotnet run.
+O código deve ser enviado para um repositório público do github e nos enviado a URL.
